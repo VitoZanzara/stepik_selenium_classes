@@ -10,7 +10,7 @@ class Lesson_1_6_11_test(TestCase):
     def test_passed(self):
         self.assertEqual(check_regform_required_fields(url_good), right_answer)
 
-    def test_failure(self):
+    def test_exception(self):
         with self.assertRaises(NoSuchElementException):
             check_regform_required_fields(url_bad)
 
