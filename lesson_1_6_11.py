@@ -21,6 +21,6 @@ def check_regform_required_fields(url: str) -> str:
 if __name__ == '__main__':
     url_good = 'http://suninjuly.github.io/registration1.html'
     url_bad = 'http://suninjuly.github.io/registration2.html'
-    print(check_regform_required_fields(url_good))
+    print(check_regform_required_fields(url_bad))
 
 
